@@ -1,0 +1,44 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.cdnfonts.com/css/digital-dismay');
+
+.calculator {
+    width: 290px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #699272;
+    border-radius: 0.5cm;
+    text-align: center;
+    border-color: gray;
+    border-block-color: rgb(54, 53, 53);
+    background-color: #968f8f;
+    box-shadow: #010101;
+  }
+  
+  .calculator input[type="text"] {
+    width: calc(90% - 20px);
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: right;
+    border-color: rgb(109, 148, 121);
+    border-radius: 0.2cm;
+    background-color: rgb(124, 167, 144);
+    box-shadow: #010101;
+    font-family: 'Digital Dismay', sans-serif;
+    
+  }
+  
+  .calculator .buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0.3cm;
+  }
+  
+  .calculator .buttons button:last-child {
+    width: calc(90% - 8px);
+  }
+  
